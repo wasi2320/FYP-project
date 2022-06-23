@@ -1,0 +1,45 @@
+.custom-card {
+  margin: 10px 0px;
+}
+.custom-card a {
+  text-decoration: none;
+}
+.custom-card .MuiCardContent-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.custom-card .MuiCardContent-root * {
+  padding: 0;
+  margin: 0;
+}
+
+.custom-card .MuiPaper-root.MuiCard-root.MuiPaper-outlined.MuiPaper-rounded {
+  background: #eee;
+  border: 2px solid #eee;
+  transition: 300ms;
+}
+
+.custom-card
+  .MuiPaper-root.MuiCard-root.MuiPaper-outlined.MuiPaper-rounded:hover,
+.custom-card
+  .MuiPaper-root.MuiCard-root.MuiPaper-outlined.MuiPaper-rounded:focus {
+  background: #fff;
+  border: 2px solid #fff;
+  transition: 300ms;
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+}
+
+.custom-card .custom-heading {
+  font-weight: 200;
+}
+.custom-card .custom-heading-number {
+  font-weight: 400;
+  font-size: 7rem;
+  color: var(--PC);
+}
+.custom-card .custom-p {
+  font-weight: 500;
+}

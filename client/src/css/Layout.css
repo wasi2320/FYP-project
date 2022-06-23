@@ -1,0 +1,46 @@
+#navbar__emailDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #navbar__emailDisplay img {
+    width: 10rem;
+  }
+  /* .modal{
+    display: flex !important;
+  } */
+  .modal.show .modal-dialog {
+    z-index: 5010 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* position: relative !important; */
+  }
+  .MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+    display: flex!important;
+    justify-content: space-between!important;
+  }
+  .profileTabNavbar {
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .profileTabNavbar a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profileTabNavbar a .profName {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 20px;
+  }
+  
+  .profileTabNavbar
+    a
+    .MuiAvatar-root.MuiAvatar-circular.MuiAvatar-colorDefault.css-2s90m6-MuiAvatar-root {
+  }

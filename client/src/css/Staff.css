@@ -1,0 +1,9 @@
+.__Staff {}
+
+.__Staff .custom-button button {
+    width: 50%;
+}
+
+.__Staff .qrcode-image{
+    cursor: pointer;
+}

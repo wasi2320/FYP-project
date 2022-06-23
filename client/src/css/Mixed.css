@@ -1,0 +1,25 @@
+.__AddUser{
+
+}
+
+.__AddUser .viewPage{
+    /* overflow-x: auto; */
+}
+
+.custom-modal{
+    background-color: rgba(0,0,0,.8);
+}
+
+.bg-one{
+    background-color: rgba(255, 255, 0, 0.5)!important;
+}
+.bg-two{
+    background-color: rgba(0, 128, 0, 0.5)!important;
+}
+.bg-zero{
+    background-color: rgba(255, 0, 0, 0.5)!important;
+}
+
+.videoTag iframe{
+    height: 30rem;
+}

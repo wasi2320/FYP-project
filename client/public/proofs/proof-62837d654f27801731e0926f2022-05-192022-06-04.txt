@@ -1,0 +1,20 @@
+<ImporterField name="JournalCode" label="JournalCode" />
+<ImporterField name="JournalLib" label="JournalLib" />
+<ImporterField name="EcritureNum" label="EcritureNum" />
+<ImporterField name="EcritureDate" label="EcritureDate" />
+<ImporterField name="CompteNum" label="CompteNum" />
+<ImporterField name="CompteLib" label="CompteLib" />
+<ImporterField name="CompteAuxNum" label="CompteAuxNum" />
+<ImporterField name="CompteAuxLib" label="CompteAuxLib" />
+<ImporterField name="PieceRef" label="PieceRef" />
+<ImporterField name="PieceDate" label="PieceDate" />
+<ImporterField name="EcritureLib" label="EcritureLib" />
+<ImporterField name="Montant" label="Montant" />
+<ImporterField name="Sens" label="Sens" />
+<ImporterField name="EcritureLet" label="EcritureLet" />
+<ImporterField name="DateLet" label="DateLet" />
+<ImporterField name="ValidDate" label="ValidDate" />
+<ImporterField name="MontantDevise" label="MontantDevise" />
+<ImporterField name="Idevise" label="Idevise" />
+<ImporterField name="CompCode" label="CompCode" optional />
+<ImporterField name="Periode" label="Periode" optional />

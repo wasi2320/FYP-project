@@ -1,0 +1,71 @@
+#root {
+  font-family: "Karla", sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Input */
+.custom-input .input-group-text {
+  background-color: #eee;
+  border: none;
+  transition: 300ms;
+  border-bottom: 2px solid #eee;
+}
+.custom-input .form-control {
+  transition: 300ms;
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  border-bottom: 2px solid #eee;
+}
+.custom-input .form-control:focus,
+.custom-input .form-control.focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.custom-input:hover .input-group-text,
+.custom-input:hover .form-control,
+.custom-input:focus .input-group-text,
+.custom-input:focus .form-control {
+  background-color: #eeeeee7d;
+  transition: 300ms;
+  border-bottom: 2px solid var(--PC);
+}
+.custom-input:hover .input-group-text,
+.custom-input:focus .input-group-text {
+  color: var(--PC);
+}
+/* Button */
+.custom-button button {
+  width: 100%;
+  border-radius: 50px;
+  border: 2px solid var(--PC);
+  color: var(--PC);
+  font-weight: 900;
+  font-size: 1rem;
+  background: transparent;
+}
+.custom-button .btn-primary:hover,
+.custom-button .btn-primary:focus {
+  color: white;
+  background: var(--PC);
+  border: 2px solid var(--PC);
+  outline: none;
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+}
+.custom-spin {
+  width: 1rem !important;
+  height: 1rem !important;
+}
+:root {
+  --BGC: #fde7f9;
+  --BGI: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
+  --PC: #536dfe;
+  --TPC: #121212;
+}
